@@ -17,18 +17,18 @@ int main()
  
     int a[100];
     a[0]=0;
-    for(int i=1;i<=n;i++)
+    for(int i=1;i<=p;i++)
     a[i]=i;
 
-   for(int y=2;y*y<=n;y++)
+   for(int y=2;y*y<=p;y++)
    {
 
-       prime(a,n,y);
+       prime(a,p,y);
    }
-   for(int h=1;h<n+1;h++)
+   for(int h=1;h<p+1;h++)
   {
-     // if(a[h]!=1)
-        printf("%d ",a[h]);
+     if(a[h]!=1)
+        printf("%d ",a[h]+a[h+1]);
   }
 
   return 0;
