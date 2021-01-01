@@ -20,7 +20,7 @@ int main()
     for(int i=1;i<=p;i++)
     a[i]=i;
 
-   for(int y=2;y*y<=p;y++)
+   for(int y=2;y*y<=p;y++)    //uefhuwef
    {
 
        prime(a,p,y);
