@@ -12,8 +12,8 @@ int *prime(int a[],int n,int k)
 
 int main()
 {
-    int n;
-    scanf("%d",&n);
+    int m;
+    scanf("%d",&m);
  
     int a[100];
     a[0]=0;
